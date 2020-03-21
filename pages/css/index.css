@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Basic styling*/
+body {
+	background-color: #fff;
+	font-family: 'Lato', 'Arial', sans-serif;
+	color: #555555;
+	font-size: 1.2em;
+	font-weight: 300;
+	word-spacing: 2px;
+	letter-spacing: 4px;
+	/* Renders text clean */
+	text-rendering: optimizeLegibility;
+	overflow-x: hidden; /* when media 500px or less, text overflows screen */
+}
+
+/* Container style*/
+.row-location {
+	margin-top: 25px;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* h6 style*/
+h6 {
+	font-style: italic;
+}
+
+/* Table syle*/
+table td {
+	padding: 4px; 	
+}
+table td:nth-child(even) {
+	padding-left: 30px;
+}
